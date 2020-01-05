@@ -23,3 +23,5 @@ let's say we've corpus = ["abc def ijk pqr", "pqr klm opq", "lmn pqr xyz abc def
 
 Diagonal elements will be set to 0. For non-diagonal element C<sub>ij</sub> (where i ≠ j) means how many times word *i* occurs around word *j* in window width = 2 (both side).
 Then SVD (singular value decomposition was applied this co-occurence matrix and selected the top 100 components of 2000 and this top 100 componets was expliaing the 88% variance of the data. Then vector representation of each word (100 dimension) is used to create the average W2V.
+
+> Credit: appliedaicourse.com
